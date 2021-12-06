@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>EKAM'S-AFRICA</title>
+<!-- Stylesheets -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon"> 
+
+
+<link rel="stylesheet" href="style.css">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<script src="jss/JQuery3.3.1.js"></script>
+<script src="jss/lightslider.js"></script>
+<script src="jss/script.js"></script>
+<link rel="stylesheet" href="cssf/style.css">
+	
+</head>
+
+<body>
+
+	<style>
+		.whatsapp
+		{
+    position: absolute;
+	z-index: 5000;
+	right: 0;
+ 
+}
+			
+		
+	</style>
+<div class="whatsapp">
+	<a href="https://wa.me/0788722522"><img src="img/whatsapp.png" alt="" width="50px" ></a>
+</div>
+<div class="page-wrapper">
+
+	
+
+
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <header class="main-header header-style-one">
+        <!--Header Top-->
+        <div class="header-top">
+            <div class="auto-container clearfix">
+                <div class="top-left clearfix">
+                    <div class="text"><span class="icon flaticon-call-answer"></span> Appelez-nous : <a href="tel:+225 0787978064" class="number">+225 0787978064/+225 0505079477  </a></div>
+					
+                </div>
+                <div class="top-right clearfix">
+                    <!-- Info List -->
+					<ul class="info-list">
+						
+                        <li><a href="about.html">Société</a></li>
+                        <li><a href="emploi.html">Emplois</a></li>
+                        <li><a href="#id1">Actualités</a></li>
+						<li class="quote"><a href="javascript:void(0);" class="user">Connexion MyEKAM'S AFRICA &nbsp;<i class="fa fa-user"></i></a></li>
+						<div class="form">
+							<!--login---------->
+							<div class="login-form">
+								<!--cancel-btn---------------->
+								<a href="javascript:void(0);" class="form-cancel">
+									<i class="fas fa-times"></i>
+								</a>
+								<strong>CONNEXION</strong>
+								<!--inputs-->
+								<form>
+									<input type="email" name="email" placeholder="Example@gmail.com" required/>
+									<input type="password" name="password" placeholder="Mot de passe" required/>
+									<input type="submit" value="Connexion"/>
+								</form>
+								<!--forget-and-sign-up-btn-->
+								<div class="form-btns">
+								<!--		<a href="#" class="forget">Mot de passe oublié?</a>
+								<a href="javascript:void(0);" class="sign-up-btn">Créé un compte</a>-->
+								</div>
+							</div>
+								<!--Sign-up---------->
+							<!--	<div class="sign-up-form">
+								<a href="javascript:void(0);" class="form-cancel">
+									<i class="fas fa-times"></i>
+								</a>
+									<strong>Inscription</strong>
+									<form>
+										<input type="text" name="fullname" placeholder="Nom" required/>
+										<input type="email" name="email" placeholder="Example@gmail.com" required/>
+										<input type="password" name="password" placeholder="Mot de passe" required/>
+										<input type="submit" value="S'inscrire"/>
+									</form>
+									<div class="form-btns">
+										<a href="javascript:void(0);" class="already-account">
+											Avez vous déja un compte?</a>
+						
+									</div>
+								</div> -->
+						</div>
+						<script>
+							$(document).on('click','.user,.already-account',function(){
+							  $('.form').addClass('login-active').removeClass('sign-up-active')
+						  });
+					   
+						  $(document).on('click','.sign-up-btn',function(){
+							  $('.form').addClass('sign-up-active').removeClass('login-active')
+						  });
+					   
+						  $(document).on('click','.form-cancel',function(){
+							  $('.form').removeClass('login-active').removeClass('sign-up-active')
+						  });
+					  </script>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Header Top -->
+
+        <!-- Header Upper -->
+        <div class="header-upper">
+            <div class="inner-container">
+                <div class="auto-container clearfix">
+                    <!--Info-->
+                    <div class="logo-outer">
+                        <div class="logo"><a href="index.html"><img src="images/logo.png" style="margin-top: 17px;" alt="" title=""></a></div>
+                    </div>
+
+                    <!--Nav Box-->
+                    <div class="nav-outer clearfix">
+                        <!--Mobile Navigation Toggler For Mobile--><div class="mobile-nav-toggler"><span class="icon flaticon-menu-1"></span></div>
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="navbar-header">
+                                <!-- Togg le Button -->      
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="icon flaticon-menu-1"></span>
+                                </button>
+                            </div>
+                            
+                            <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li class="current dropdown"><a href="index.html" style="color: #004b8d;">Accueil</a>
+                                    </li>
+									<li class="dropdown"><a href="shop.html">Produits</a>
+										<ul>
+                                          
+											<li class="dropdown"><a href="shop.html">Pétrole</a></li>
+											<li class="dropdown"><a href="shop.html">Mécanique</a></li>
+											<li class="dropdown"><a href="shop.html">Bureautique</a></li>
+
+
+                                            <li class="dropdown"><a href="shop.html">Instruments de mesure</a></li>
+											<li class="dropdown"><a href="shop.html">Gestion équipements</a>
+                                               <!--    <ul>
+                                                    <li><a href="#">Header Style One</a></li>
+                                                    <li><a href="#">Header Style Two</a></li>
+                                                    <li><a href="#">Header Style Three</a></li>
+													<li><a href="#">Header Style Four</a></li>
+                                                    <li><a href="#">Header Style Five</a></li>
+                                                </ul>-->
+                                            </li>
+                                            <li class="dropdown"><a href="shop.html">Instruments de mesure</a></li>
+                                           
+
+                                        </ul>
+                                    </li>
+										<li class="dropdown"><a href="log.html">Logiciels</a>
+										<ul>
+                                          
+
+											<li class="dropdown"><a href="log1.html">Calibrage</a>
+                                               <!--    <ul>
+                                                    <li><a href="#">Header Style One</a></li>
+                                                    <li><a href="#">Header Style Two</a></li>
+                                                    <li><a href="#">Header Style Three</a></li>
+													<li><a href="#">Header Style Four</a></li>
+                                                    <li><a href="#">Header Style Five</a></li>
+                                                </ul>-->
+                                            </li>
+                                            <li class="dropdown"><a href="log2.html">Securité</a>
+                                                <!--    <ul>
+                                                    <li><a href="#">Header Style One</a></li>
+                                                    <li><a href="#">Header Style Two</a></li>
+                                                    <li><a href="#">Header Style Three</a></li>
+													<li><a href="#">Header Style Four</a></li>
+                                                    <li><a href="#">Header Style Five</a></li>
+                                                </ul>-->
+                                            </li>
+											<li class="dropdown"><a href="log2.html">Surveillance</a>
+                                              
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#id1">Services</a>
+                                        <ul>
+                                            <li><a href="formation.html">Services de formation</a></li>
+                                            <li><a href="consulting.html">Services de consulting</a></li>
+                                            <li><a href="expertise.html">Services d' expertise</a></li>
+
+                                            
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#">Industries</a>
+                                        <ul>
+                                            <li><a href="ind.html">Bâtiments - construction</a></li>
+                                        </ul>
+                                    </li>
+							
+									<li class="dropdown"><a href="outils.html">Outils</a>
+                                     <!--    <ul>
+                                            <li><a href="shop.html">Calculateur de débit</a></li>
+                                            <li><a href="product-detail.html">Configurateur TopWorx</a></li>
+                                          
+                                        </ul> -->
+                                    </li>
+									<li class="dropdown"><a href="contact.html">Contact</a>
+                                    </li>
+
+                                    <li><a href="contact.html"><p style="visibility	: hidden;">aaaaaa</p></a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- Main Menu End-->
+						
+						<!-- Outer Box -->
+                        <div class="outer-box clearfix">
+						<!--  <div class="search-box-btn"><span class="icon flaticon-shopping-cart"></span></div> -->
+							<div class="search-box-btn"><span style="color: #004b8d;">Rechercher</span><span class="icon flaticon-magnifying-glass-1"></span></div>
+							
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End Header Upper-->
+
+    	<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-cancel"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="images/logo.png" alt="" title=""></a></div>
+                <ul class="navigation clearfix"><!--Keep This Empty / Menu will come through Javascript--></ul>
+				<!--Social Links-->
+				<div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+    </header>
+    <!-- End Main Header -->
+
+    <!-- Main Slider -->
+	<section class="main-slider">
+		<div class="slider-box">
+		
+			<!-- Banner Carousel -->
+			<div class="banner-carousel owl-theme owl-carousel">
+			
+				<!-- Slide -->
+				<div class="slide">
+                	<div class="image-layer" style="background-image:url(images/main-slider/17.jpeg)"></div>
+					<div class="auto-container">
+						<div class="content">
+							<h2>Solutions d'automatisation</h2>
+							<div class="text">Notre activité liée aux solutions d'automatisation permet d'utiliser au mieux les ressources les plus précieuses de la planète, en assurant le rendement et la sécurité des industries piliers de la vie quotidienne.</div>
+							<div class="btns-box">
+								<a href="" class="theme-btn btn-style-one"><span class="txt">En savoir plus</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Slide -->
+				<div class="slide">
+                	<div class="image-layer" style="background-image:url(images/main-slider/16.jpeg)"></div>
+					<div class="auto-container">
+						<div class="content">
+							<h2>Solutions commerciales et résidentielles</h2>
+							<div class="text">Notre activité liée aux solutions commerciales et résidentielles permet de préserver la santé et le confort des personnes, de garantir la qualité et la sécurité des produits alimentaires, d’améliorer l’efficacité énergétique et de construire des infrastructures durables.</div>
+							<div class="btns-box">
+								<a href="" class="theme-btn btn-style-one"><span class="txt">En savoir plus</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Slide 
+				<div class="slide">
+                	<div class="image-layer" style="background-image:url(images/main-slider/13.jpg)"></div>
+					<div class="auto-container">
+						<div class="content">
+							<h2>Solution for <br> Modern Kitchen</h2>
+							<div class="text">Since 1989, We inspired fragments of your life stories with the finest kitchens, wardrobes, bedroom sets and living & dining.</div>
+							<div class="btns-box">
+								<a href="#" class="theme-btn btn-style-one"><span class="txt">En savoir plus</span></a>
+							</div>
+						</div>
+					</div>
+				</div>-->
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Banner Section -->
+	
+	<!-- Services Section -->
+	<section class="services-section">
+		<div class="auto-container">
+			<!-- Title Box -->
+			<div class="title-box">
+				<h2>Engagés sans compromis à répondre aux besoins  <br> les plus pressants de la planète.</h2>
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- Service Block -->
+				<div class="service-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="#"><img src="images/resource/13.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">
+								Des réseaux plus intelligents</a></h3>
+							<div class="text">De nouvelles approches permettent de distribuer une énergie plus propre à plus de gens.</div>
+							<br>
+							
+							<a href="" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href=""><img src="images/resource/15.jpeg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">
+								Énergie plus propre</a></h3>
+							<div class="text">Technologies d'automatisation pour tirer le meilleur parti d'un gaz naturel liquéfié propre et économique.</div>
+							<a href="" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href=""><img src="images/resource/18.jpeg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">
+								Des entrepreneurs en confiance</a></h3>
+							<div class="text">Nos outils intelligents donnent aux ouvriers qualifiés les moyens . d'obtenir un taux de réussite sans précédent.</div>
+							<a href="#" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Services Section -->
+	
+	<!-- Services Section Two -->
+	<section class="services-section-two" id="id1">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title" >
+				<h2>Services</h2>
+				<div class="text">Expertise et ressources mondiales pour vous aider à élaborer, déployer et soutenir une stratégie avec confiance tout au long du cycle de vie de votre exploitation.</div>
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- Service Block -->
+				<div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="content">
+							<div class="icon-box">
+								<span class="icon flaticon-desk-1"></span>
+							</div>
+							<h3><a href="formation.html">Formation</a></h3>
+							<div class="text">EKAM'S-AFRICA propose des formations dans plusieurs domaines.</div>
+							<a href="formation.html" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="content">
+							<div class="icon-box">
+								<span class="icon flaticon-verified"></span>
+							</div>
+							<h3><a href="consulting.html">Consulting</a></h3>
+							<div class="text">EKAM'S-AFRICA propose un service consulting que vous pouvez contacter a tout moments.</div>
+							<a href="consulting.html" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+				<div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="content">
+							<div class="icon-box">
+								<span class="icon flaticon-diploma"></span>
+							</div>
+							<h3><a href="expertise.html">Expertise</a></h3>
+							<div class="text">EKAM'S-AFRICA propose un service d'expertise accesible par tous et disponible dans nos locaux.</div>
+							<a href="expertise.html" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Service Block -->
+		<!-- 		<div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="content">
+							<div class="icon-box">
+								<span class="icon flaticon-hospital"></span>
+							</div>
+							<h3><a href="office-interior.html">Consulting</a></h3>
+							<div class="text">Lorem Ipsum is  simply my text of the printing and Ipsum is the Ipsum is simply.</div>
+							<a href="office-interior.html" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+						<div class="content">
+							<div class="icon-box">
+								<span class="icon flaticon-apartment-1"></span>
+							</div>
+							<h3><a href="office-interior.html">Support</a></h3>
+							<div class="text">Lorem Ipsum is  simply my text of the printing and Ipsum is the Ipsum is simply.</div>
+							<a href="office-interior.html" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="service-block-two col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="600ms" data-wow-duration="1500ms">
+						<div class="content">
+							<div class="icon-box">
+								<span class="icon flaticon-hotel"></span>
+							</div>
+							<h3><a href="office-interior.html">Inovation et expertise</a></h3>
+							<div class="text">Lorem Ipsum is  simply my text of the printing and Ipsum is the Ipsum is simply.</div>
+							<a href="office-interior.html" class="read-more">En savoir plus</a>
+						</div>
+					</div>
+				</div> -->
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Services Section Two -->
+	
+	<!-- Project Section -->
+
+	<!-- End Project Section -->
+	
+	<!-- Fluid Section One -->
+    <section class="fluid-section-one">
+    	<div class="outer-container clearfix">
+        	
+			<!--Content Column-->
+			<div class="content-column">
+				<div class="content-box">
+					<h2>Carrières cher AKAM</h2>
+				
+					<div class="bold-text">Dans le monde entier, nos collaborateurs poursuivent un même objectif : rendre le monde meilleur. Nous sommes convaincus qu’il est indispensable que nous soutenions nos collaborateurs, qui représentent l’une de nos valeurs fondamentales, car c’est grâce à leurs talents combinés que nous concrétisons les meilleures idées. <br> <br><a href="contact.html">EN SAVOIR PLUS</a></div>
+				</div>
+			</div>
+			
+			<!--Image Column-->
+        	<div class="image-column" style="background-image: url(images/resource/img2.jpg)">
+				<div class="inner-column">
+					<div class="image">
+						<img src="images/resource/img2.jpg" alt="">
+					</div>
+					<a href="https://www.youtube.com/watch?v=SXZXtD60t2g" class="overlay-link lightbox-image">
+						<div class="icon-box">
+							<span class="icon flaticon-play-button"></span>
+                            <i class="ripple"></i>
+						</div>
+					</a>
+				</div>
+            </div>
+			
+            <!--End Image Column-->
+			
+		</div>
+	</section>
+
+<!--
+	<section class="fluid-section-one">
+    	<div class="outer-container clearfix">
+        	
+
+			<div class="content-column">
+				<div class="content-box">
+					<h2>Inspirer la prochaine génération de leaders en STEM</h2>
+
+					
+					<div class="bold-text">La prochaine génération d'experts en STEM (science, technologie, ingénierie et mathématiques) sera guidée par l'innovation, l'ingéniosité et une envie tenace d'apprendre. Notre programme « We Love STEM » donne l'occasion aux experts de demain de goûter au plaisir des STEM dès aujourd'hui.<br><br> <a href="contact.html">PROGRAMME « WE LOVE STEM »</a></div>
+				</div>
+			</div>
+			
+		
+        	<div class="image-column" style="background-image: url(images/resource/img1.jpg)">
+				<div class="inner-column">
+					<div class="image">
+						<img src="images/resource/img1.jpg" alt="">
+					</div>
+					<a href="https://www.youtube.com/watch?v=SXZXtD60t2g" class="overlay-link lightbox-image">
+						<div class="icon-box">
+							<span class="icon flaticon-play-button"></span>
+                            <i class="ripple"></i>
+						</div>
+					</a>
+				</div>
+            </div>
+	
+		</div>
+	</section>
+-->
+	<!-- -->
+	<!-- News Section -->
+	<section class="news-section">
+		<div class="auto-container">
+			<!-- Sec Title -->
+			<div class="sec-title">
+				<h2>Actualités</h2>
+				<div class="text" style="text-transform: uppercase;font-size: 14px;">Restez à jour avec les dernières tendances de AKAM et du pays	&nbsp;	&nbsp;	&nbsp;	&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;&nbsp;&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;	&nbsp;		&nbsp;	&nbsp;	&nbsp;	&nbsp;
+					<a href="#" style="text-transform: uppercase;font-size: 14px;">Afficher toutes les Actualités et tous les évènements</a>&nbsp;<i class="fas fa-chevron-right"></i></div>
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="#"><img src="images/resource/1.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">La nouvelle application logicielle d’AKAM pour la gestion des parcs de stockage améliore l’efficacité opérationnelle ...</a></h3>
+							<a href="#" class="read-more">En savoir plus <span class="icon flaticon-right-arrow-1"></span></a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="250ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="#"><img src="images/resource/2.jpg" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">Les logiciels hébergés vers le cloud d’AKAM aident Repsol à accroître ses performances dans la mesure ou ceux ci sont ...</a></h3>
+							<a href="#" class="read-more">En savoir plus <span class="icon flaticon-right-arrow-1"></span></a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- News Block -->
+				<div class="news-block col-lg-4 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInRight" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="image">
+							<a href="#"><img src="images/resource/3.png" alt="" /></a>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">La nouvelle vanne à guillotine réduit le coût total de possession dans les applications sévères d’effluents boueux ...</a></h3>
+							<a href="#" class="read-more">En savoir plus <span class="icon flaticon-right-arrow-1"></span></a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+	
+	</section>
+	<!-- End News Section -->
+	
+	<!-- Featured Section -->
+	<section class="featured-section" style="background-image: url(images/background/2.jpg)">
+		<div class="auto-container">
+			<!-- Title Box -->
+			<div class="title-box">
+				<h2>Notre processus de travail</h2>
+			</div>
+			
+			<div class="row clearfix">
+				
+				<!-- Feature Block -->
+				<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+						<div class="icon-outer">
+							<div class="icon-box">
+								<span class="icon flaticon-hand-shake"></span>
+							</div>
+							<div class="feature-number">1</div>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">Rencontrez des clients</a></h3>
+						<!--	<div class="text">Osed quia consequuntur magni dolores eos qui rati one volu ptatem sequi nesciunt.</div> -->
+					</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="250ms" data-wow-duration="1500ms">
+						<div class="icon-outer">
+							<div class="icon-box">
+								<span class="icon flaticon-answer"></span>
+							</div>
+							<div class="feature-number">2</div>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">Discussion de conception</a></h3>
+						<!--	<div class="text">Osed quia consequuntur magni dolores eos qui rati one volu ptatem sequi nesciunt.</div> -->
+					</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="500ms" data-wow-duration="1500ms">
+						<div class="icon-outer">
+							<div class="icon-box">
+								<span class="icon flaticon-sketch"></span>
+							</div>
+							<div class="feature-number">3</div>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">Mise en place de solution</a></h3>
+						<!--	<div class="text">Osed quia consequuntur magni dolores eos qui rati one volu ptatem sequi nesciunt.</div> -->
+						</div>
+					</div>
+				</div>
+				
+				<!-- Feature Block -->
+				<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+					<div class="inner-box wow fadeInLeft" data-wow-delay="750ms" data-wow-duration="1500ms">
+						<div class="icon-outer">
+							<div class="icon-box">
+								<span class="icon flaticon-house-1"></span>
+							</div>
+							<div class="feature-number">4</div>
+						</div>
+						<div class="lower-content">
+							<h3><a href="#">Implémentation</a></h3>
+						<!--	<div class="text">Osed quia consequuntur magni dolores eos qui rati one volu ptatem sequi nesciunt.</div> -->
+					</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+	</section>
+	<!-- End Featured Section -->
+	
+
+	
+
+
+		<!-- Testimonial Section -->
+		<section class="testimonial-section">
+			<div class="auto-container">
+				<!-- Sec Title -->
+				<div class="sec-title-two centered">
+					<h2>Localisation</h2>
+					<div class="title-text">Vous pouvez nous retrouvez grace a la localisation suivante</div>
+				</div>
+				
+			<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.0846881706607!2d-3.985967785234757!3d5.404069296080486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1935d2cf5d931%3A0xc8421efb2f4ced5c!2sJokkolabs%20Abidjan%2C%20Social%20Hub!5e0!3m2!1sfr!2sci!4v1617144468660!5m2!1sfr!2sci" width="1230" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>	
+			</div>
+		</section>
+		<!-- End Testimonial Section -->
+
+
+
+	<!-- Call To Action Section -->
+<!--<section class="call-to-action-section" style="background-image: url(images/background/9.jpg)">
+		<div class="auto-container">
+			<h2>Pensez au développement. Pensez à AKAM</h2>
+			<div class="text">Pour le meilleurs de votre entreprise, <br> choisissez parmi nos logiciels et solutions.</div>
+			<a href="contact.html" class="theme-btn btn-style-two"><span class="txt">Contactez-nous</span></a>
+		</div>
+	</section>-->
+	<!-- End Call To Action Section -->
+	
+	<!--Main Footer-->
+ 
+	
+</div>  
+<!--End pagewrapper-->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+	<div class="close-search theme-btn"><span class="flaticon-cancel"></span></div>
+	<div class="popup-inner">
+		<div class="overlay-layer"></div>
+    	<div class="search-form">
+        	<form method="post" action="templateshub.net">
+            	<div class="form-group">
+                	<fieldset>
+                        <input type="search" class="form-control" name="search-input" value="" placeholder="Recherche" required >
+                        <input type="submit" value="Valider!" class="theme-btn">
+                    </fieldset>
+                </div>
+            </form>
+            
+            <br>
+            <h3>Les recherches récentes</h3>
+            <ul class="recent-searches">
+                <li><a href="#">Solution d'automatisation</a></li>
+                <li><a href="#">Solution commerciales</a></li>
+                <li><a href="#">Solution résidentielles</a></li>
+                <li><a href="#">Produits et logiciels</a></li>
+            </ul>
+        
+        </div>
+        
+    </div>
+</div>
+
+<footer class="footer span">
+	<div class="container1">
+		<div class="row1">
+			<div class="footer-col span">
+				<h4>Notre Compagnie</h4>
+				<ul>
+					<li><a class="span" href="">Historique</a></li>
+					<li><a href="">Nos services</a></li>
+				</ul>
+			</div>
+			<div class="footer-col span">
+				<h4>Obtenir de l'aide</h4>
+				<ul>
+					<li><a href="#">Produits</a></li>
+					<li><a href="#">Logiciels</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Industries</a></li>
+					<li><a href="#">Outils</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="footer-col span">
+				<h4>En ligne</h4>
+				<ul>
+					<li><a href="#">Voir</a></li>
+					<li><a href="#">Panier</a></li>
+					<li><a href="#">Acheter</a></li>
+					<li><a href="#">Livraison</a></li>
+				</ul>
+			</div>
+			<div class="footer-col span">
+				<h4>Suivez-nous</h4>
+				<div class="social">
+					<a href=""><i class="fab fa-facebook"></i></a>
+					<a href=""><i class="fab fa-whatsapp-square"></i></a>
+					<a href=""><i class="fab fa-instagram"></i></a>
+					<a href=""><i class="fab fa-linkedin"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!--Scroll to top-->
+<script src="js/jquery.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/owl.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/appear.js"></script>
+<script src="js/scrollbar.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+<!-- stella-orre/  30 Nov 2019 03:45:45 GMT -->
+</html>
